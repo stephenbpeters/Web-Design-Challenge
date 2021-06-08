@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://bootswatch.com/5/cerulean/bootstrap.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/custom.min.css">
-    <link rel="stylesheet" href="assets/css/custom.min.css">
+    <link rel="stylesheet" href="assets/css/lattitude.css">
 
 
     <title>Comparison page</title>
@@ -18,48 +18,22 @@
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
       <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Project Home</a>
+        <a class="navbar-brand" href="index.html">Latitude</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor02" aria-controls="navbarColor02" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarColor02">
-          <ul class="navbar-nav me-auto">
-            <!--
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
-              <div class="dropdown-menu">
-                <a class="dropdown-item" href="#">Plot 1</a>
-                <a class="dropdown-item" href="#">Plot 2</a>
-                <a class="dropdown-item" href="#">Plot 3</a>
-                <a class="dropdown-item" href="#">Plot 4</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="#">Tiki:Mojo</a>
-              </div>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Comparison</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Data</a>
-            </li>
-             
-            <ul class="d-flex">
-              <li class="nav-item">
-                <a class="nav-link" href="#">Double Foo</a>
-              </li>
-            </ul>    -->        
+          <ul class="navbar-nav me-auto">      
           </ul>
           <form class="d-flex">
          <ul class="navbar-nav me-auto">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Plots</a>
               <div class="dropdown-menu">
-                <a class="dropdown-item" href="viz1.html">Plot 1</a>
-                <a class="dropdown-item" href="viz2.html">Plot 2</a>
-                <a class="dropdown-item" href="viz3.html">Plot 3</a>
-                <a class="dropdown-item" href="viz4.html">Plot 4</a>
-                <div class="dropdown-divider"></div>
-                <a class="dropdown-item" href="http://www.tikimojo.com">Tiki:Mojo</a>
+                <a class="dropdown-item" href="viz1.html">Max Temperature</a>
+                <a class="dropdown-item" href="viz2.html">Humidity</a>
+                <a class="dropdown-item" href="viz3.html">Cloudiness</a>
+                <a class="dropdown-item" href="viz4.html">Wind Speed</a>
               </div>
             </li>
             <li class="nav-item">
@@ -69,23 +43,45 @@
               <a class="nav-link" href="data.html">Data</a>
             </li>     
           </ul>
-            <!--
-            <input class="form-control me-sm-2" type="text" placeholder="Search">
-            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button> -->
           </form>
         </div>
       </div>
     </nav>
     <div class="container">
-      <h1>comparison page</h1>
-      <div class="jumbotron">
-        <h1 class="display-4">Jumbotron!</h1>
-        <p class="lead">This is placed inside a container</p>
-        <hr class="my-4">
-        <p>Here we can display some more text!</p>
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
+      <div class="row">
+        <div class="col-md-12">
+          <div class="spacer">        </div>
+            <h1>Comparison: Latitude vs X</h1>
+            <hr>
+            Click any plot to get an in-depth analysis.
+            <div class="spacer2"></div>
+        </div>  
+      </div>
+      <div class="row">
+        <div class="col-sm-12 col-md-6">
+          <div class="box-center">
+            <h3>vs. Max Temperature</h3>
+          <a href="viz1.html"><img src="images/Fig1.png" width="600px" height="400px" align="center"></a><br>
+          <div class="spacer">        </div>
+          <h3>vs. Cloudiness</h3>>
+          <a href="viz3.html"><img src="images/Fig3.png" width="600px" height="400px" align="center"></a>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-6">
+          <div class="box-center">
+            <h3>vs. Humidity</h3>
+          <a href="viz2.html"><img src="images/Fig2.png" width="600px" height="400px" align="center"></a><br>
+          <div class="spacer">        </div>
+          <h3>vs. Wind Speed</h3>
+          <a href="viz4.html"><img src="images/Fig4.png" width="600px" height="400px" align="center"></a>
+          </div>
+        </div>
       </div>
     </div>
+
+    <footer class="footer">
+        <center><span class="text-muted">Thanks for visiting</span></center>
+    </footer>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
